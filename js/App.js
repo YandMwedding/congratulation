@@ -4,7 +4,7 @@ $(document).ready(function() {
     
     // ゲーム終了後にはプレゼント用ページを表示する
     var isStaff =  location.hash === '#staff';
-    var pagename = isStaff || present_date >= now ? 'Question' : 'Present';
+    var pagename = !isStaff || present_date >= now ? 'Question' : 'Present';
     
     var Page = window[pagename];
     
