@@ -1,6 +1,6 @@
 $(document).ready(function() {
     var now = new Date();
-    var present_date = new Date('2017/09/30 19:00:00');
+    var present_date = new Date('2017/10/01 20:00:00');
     
     // ゲーム終了後にはプレゼント用ページを表示する
     var pagename = present_date >= now ? 'Question' : 'Present';
