@@ -3,7 +3,8 @@ $(document).ready(function() {
     var present_date = new Date('2017/10/01 20:00:00');
     
     // ゲーム終了後にはプレゼント用ページを表示する
-    var pagename = present_date >= now ? 'Question' : 'Present';
+    var isStaff =  location.hash === '#staff';
+    var pagename = isStaff || present_date >= now ? 'Question' : 'Present';
     
     var Page = window[pagename];
     
