@@ -1,6 +1,6 @@
 $(document).ready(function() {
     var now = new Date();
-    var present_date = new Date('2017/10/01 20:00:00');
+    var present_date = new Date('2017/10/14 20:00:00');
     
     // ゲーム終了後にはプレゼント用ページを表示する
     var isStaff =  location.hash === '#staff';
