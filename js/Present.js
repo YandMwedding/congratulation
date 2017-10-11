@@ -3,7 +3,7 @@ Present.prototype.getElements = function() {
     var elements = [];
 
     // お礼メッセージ
-    var $message = $('<img>').addClass('thxMsg').attr('src', './images/HappyWedding.png');
+    var $message = $('<img>').addClass('thxMsg').attr('src', './images/thanks.png');
     elements.push($message);
 
     // アルバムへのボタン
